@@ -2,7 +2,7 @@ from foca import foca
 from iguana import iguana
 from rana import rana
 
-class Zoologico:
+class Zoo:
     def __init__(self):
         self.animales = []
 
@@ -13,7 +13,7 @@ class Zoologico:
         for animales in self.animales:
             print(animales)
 
-adminZoo = Zoologico()
+adminZoo = Zoo()
 while True:
     opcion = int(input("\n1.Agregar animal. \n2.Ver animales. \n3.Salir"))
     if opcion == 1:
@@ -50,3 +50,4 @@ while True:
 
         elif opcion == 3:
             break
+    pass
