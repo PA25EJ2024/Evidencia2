@@ -45,14 +45,14 @@ while True:
                 print("Ingrese una opcion valida")
         case 2:
             print("Cebras:\n")
-            for i in cebra.Cebra:
-                print(cebra.Cebra.nombre[i])
+            for i in cebras:
+                print(i)
             print("Osos:\n")
-            for i in oso.Oso:
-                print(oso.Oso.nombre[i])
+            for j in osos:
+                print(j)
             print("Lemures:\n")
-            for i in lemur.Lemur:
-                print(lemur.Lemur.nombre[i])
+            for k in lemures:
+                print(k)
                 
         case 3:
             break
