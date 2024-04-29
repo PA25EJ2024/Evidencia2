@@ -56,5 +56,5 @@ class foca:
     def aspecto(self):
         print("{self.__nombre}, hay como muchos y pueden llegar a tener cuerpos alargados y adaptados para nadar en el agua, ademas su color puede llegar a ser gris oscuro hasta marron claro")
 
-    def__str__(self):
+    def __str__(self):
         return (f"Foca: \n Nombre: {self.__nombre}\n Peso: {self.__peso}\n Edad: {self.__edad}\n Sexo: {self.__sexo}\n Color: {self.__color}")
